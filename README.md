@@ -2,6 +2,7 @@
 A Generalized Spring Boot App.
 
 ===================================================================
+
 1. How to access the H2 db from the console.
 
 Step 1:	Hit url - http://localhost:8080/h2-console/
@@ -12,6 +13,7 @@ Stpe 2: Saved settings: Generic H2 embedded
 		pass: password
 		
 ==================================================================
+
 
 2. Testing rest services using postman.
 
