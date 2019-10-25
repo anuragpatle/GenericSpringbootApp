@@ -1,4 +1,4 @@
-package com.rest_and_mvc_example;
+package com.project._1_rest_and_mvc_example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

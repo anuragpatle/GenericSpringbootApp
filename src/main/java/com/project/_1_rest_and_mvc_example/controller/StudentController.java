@@ -1,4 +1,4 @@
-package com.rest_and_mvc_example.controller;
+package com.project._1_rest_and_mvc_example.controller;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.rest_and_mvc_example.model.Student;
-import com.rest_and_mvc_example.repository.StudentRepository;
+import com.project._1_rest_and_mvc_example.model.Student;
+import com.project._1_rest_and_mvc_example.repository.StudentRepository;
 
 @Controller
 @RequestMapping("/students/")

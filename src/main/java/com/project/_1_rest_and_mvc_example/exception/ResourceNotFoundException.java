@@ -1,4 +1,4 @@
-package com.rest_and_mvc_example.exception;
+package com.project._1_rest_and_mvc_example.exception;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus

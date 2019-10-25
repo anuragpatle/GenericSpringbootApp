@@ -1,8 +1,8 @@
-package com.rest_and_mvc_example.service;
+package com.project._1_rest_and_mvc_example.service;
 
 import java.util.List;
 
-import com.rest_and_mvc_example.model.Product;
+import com.project._1_rest_and_mvc_example.model.Product;
 
 public interface ProductService {
     

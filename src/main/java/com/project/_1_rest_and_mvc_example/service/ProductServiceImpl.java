@@ -1,4 +1,4 @@
-package com.rest_and_mvc_example.service;
+package com.project._1_rest_and_mvc_example.service;
 import java.util.List;
 import java.util.Optional;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.rest_and_mvc_example.exception.ResourceNotFoundException;
-import com.rest_and_mvc_example.model.Product;
-import com.rest_and_mvc_example.repository.ProductRepository;
+import com.project._1_rest_and_mvc_example.exception.ResourceNotFoundException;
+import com.project._1_rest_and_mvc_example.model.Product;
+import com.project._1_rest_and_mvc_example.repository.ProductRepository;
 
 @Service
 @Transactional

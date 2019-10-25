@@ -1,4 +1,4 @@
-package com.rest_and_mvc_example.model;
+package com.project._1_rest_and_mvc_example.model;
 
 
 import javax.persistence.Column;
