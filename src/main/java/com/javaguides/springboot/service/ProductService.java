@@ -5,11 +5,12 @@ import java.util.List;
 import com.javaguides.springboot.model.Product;
 
 public interface ProductService {
-    Product createProduct(Product product);
+    
+	Product createProduct(Product product);
 
     Product updateProduct(Product product);
 
-    List < Product > getAllProduct();
+    List <Product> getAllProduct();
 
     Product getProductById(long productId);
 
