@@ -1,4 +1,4 @@
-package com.javaguides.springboot;
+package com.rest_and_mvc_example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.javaguides.springboot.model;
+package com.rest_and_mvc_example.model;
 import java.math.BigDecimal;
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package com.javaguides.springboot.exception;
+package com.rest_and_mvc_example.exception;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus

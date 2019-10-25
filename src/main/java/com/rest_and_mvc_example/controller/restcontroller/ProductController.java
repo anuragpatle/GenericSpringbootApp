@@ -1,4 +1,4 @@
-package com.javaguides.springboot.controller.restcontroller;
+package com.rest_and_mvc_example.controller.restcontroller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javaguides.springboot.model.Product;
-import com.javaguides.springboot.service.ProductService;
+import com.rest_and_mvc_example.model.Product;
+import com.rest_and_mvc_example.service.ProductService;
 
 @RestController
 public class ProductController {

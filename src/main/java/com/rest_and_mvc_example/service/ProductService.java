@@ -1,8 +1,8 @@
-package com.javaguides.springboot.service;
+package com.rest_and_mvc_example.service;
 
 import java.util.List;
 
-import com.javaguides.springboot.model.Product;
+import com.rest_and_mvc_example.model.Product;
 
 public interface ProductService {
     

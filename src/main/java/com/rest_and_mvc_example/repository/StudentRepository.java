@@ -1,11 +1,11 @@
-package com.javaguides.springboot.repository;
+package com.rest_and_mvc_example.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.javaguides.springboot.model.Student;
+import com.rest_and_mvc_example.model.Student;
 
 @Repository
 public interface StudentRepository extends JpaRepository <Student, Long> {
