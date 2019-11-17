@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.project._1_rest_and_mvc_example.repository.StudentRepository;
 
 @Controller
-//@RequestMapping("/")
+@RequestMapping("/GenericSpringbootApp")
 public class RootController {
 
 	private final StudentRepository studentRepository;
@@ -18,10 +18,10 @@ public class RootController {
         this.studentRepository = studentRepository;
     }
 
-	@GetMapping("/")
-	public String showSignUpForm(Model model) {
-		model.addAttribute("students", studentRepository.findAll());
-		return "index";
-	}
+	/* This method is optional
+	 * 
+	 * @GetMapping("/") public String showSignUpForm(Model model) { return "index";
+	 * }
+	 */
 
 }
