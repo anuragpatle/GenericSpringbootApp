@@ -22,11 +22,12 @@ pipeline {
         stage ('Deploy Build in Staging Area'){
             steps{
 
-                build job : 'Deploy-StagingArea-Piple'
+                build job : 'PipelineAsCodeForGenericSpringbootApp'
 
             }
         }
 
+        /*
         stage ('Deploy to Production'){
             steps{
                 timeout (time: 5, unit:'DAYS'){
@@ -46,5 +47,6 @@ pipeline {
                 }
             }
         }
+        */
     }
 }
