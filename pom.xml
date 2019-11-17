@@ -10,7 +10,8 @@
 		<!-- <relativePath/>  -->
 	</parent>
 	<groupId>com.project</groupId>
-	<artifactId>springboot-thymeleaf-crud-example</artifactId>
+	<artifactId>GenericSpringbootApp</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-thymeleaf-crud-example</name>
 	<description>Demo project for Spring Boot</description>
