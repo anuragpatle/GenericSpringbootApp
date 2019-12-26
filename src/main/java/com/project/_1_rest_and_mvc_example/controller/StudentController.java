@@ -26,7 +26,7 @@ public class StudentController {
 
     @GetMapping("signup")
     public String showSignUpForm(Student student) {
-        return "add-student";
+        return "student/add-student";
     }
 
     @GetMapping("list")
@@ -38,7 +38,7 @@ public class StudentController {
     @PostMapping("add")
     public String addStudent(@Valid Student student, BindingResult result, Model model) {
         if (result.hasErrors()) {
-            return "add-student";
+            return "student/add-student";
         }
 
         studentRepository.save(student);
@@ -51,7 +51,7 @@ public class StudentController {
         		.orElseThrow(() -> new IllegalArgumentException("Invalid student Id:" + id));
         
         model.addAttribute("student", student);
-        return "update-student";
+        return "student/update-student";
     }
 
     @PostMapping("update/{id}")
@@ -59,7 +59,7 @@ public class StudentController {
         Model model) {
         if (result.hasErrors()) {
             student.setId(id);
-            return "update-student";
+            return "student/update-student";
         }
 
         studentRepository.save(student);
